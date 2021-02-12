@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "KaiOS App",
+  "description": "A file simple example manifest.webapp",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/icons/kaios_56.png",
+    "112": "/assets/icons/kaios_112.png"
+  },
+  "developer": {
+    "name": "Your Name"
+  },
+  "locales": {
+    "en-US": {
+      "name": "KaiOS App",
+      "subtitle": "Short description for the user",
+      "description": "Brief description of your app"
+    }
+  },
+  "default_locale": "en-US"
+}

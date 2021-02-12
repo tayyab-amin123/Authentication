@@ -1,0 +1,12 @@
+<h2>Phone Number Validation</h2>
+
+<input id="phonenum" type="tel" [(ngModel)]="cellno" />
+<br />
+<div id="recaptcha-container"></div>
+<input type="submit" value="Submit" (click)="signin()" />
+
+<br />
+
+<input type="text" [(ngModel)]="code" name="code" />
+<br />
+<button type="submit" value="verify" (click)="verifyLoginCode()">verify</button>
